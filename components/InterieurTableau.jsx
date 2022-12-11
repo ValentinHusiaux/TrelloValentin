@@ -11,7 +11,7 @@ export function Listes({ item, navigation}) {
     const { user, setIdTableau} = useContext(TableauContext);
     function handleClick() {
         setIdTableau(item.id)
-        navigation.push("creerTableauRouteur")
+        navigation.push("listTableaux")
     }
     // function handleDelete() {
     //     console.log("coucou");
